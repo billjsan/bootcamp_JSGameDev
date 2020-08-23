@@ -7,18 +7,42 @@
     font-size: 14px;
 }
 
-body{
-    width:100vh;
-    background-color:rgb(243,243,243);
+body {
+    widows: 50%;;
+    background-color:red;
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: cente;
+    justify-content: center;
 }
 
-.instagram-wrapper{
+.instagram-wrapper {
+    margin-top: 100px;
     display: flex; 
     align-items: center; /* alinhamento horizontal */
-    justify-content: start; /* alinhamento vertical */
+    justify-content: center; /* alinhamento vertical comecando da esquerda*/
+    width: 300px;
+    height: 500px;
+    background-color: black;
+}
 
+.instagram-phone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.instagram-phone img{
+  width: 500px;
+}
+
+.instagram-logo {
+    height: 50px;
+    width: 50px;
+}
+
+.profile-photo{
+    height: 50px;
+    width: 50px;  
 }
