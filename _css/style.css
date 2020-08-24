@@ -9,7 +9,7 @@
 
 body {
     widows: 50%;;
-    background-color:red;
+    background-color:rgb(245,245,245);
     margin: 0;
     padding: 0;
     display: flex;
@@ -21,16 +21,27 @@ body {
     display: flex; 
     align-items: center; /* alinhamento horizontal */
     justify-content: center; /* alinhamento vertical comecando da esquerda*/
-    width: 300px;
-    height: 500px;
-    background-color: black;
+    width: 500px;
+    height: 900px;
+    background-color: rgb(151, 143, 143);
+}
+
+
+.instagram-continue{
+    margin-top: 100px;
+    display: flex; 
+    align-items: center; /* alinhamento horizontal */
+    justify-content: space-around; /* alinhamento vertical comecando da esquerda */
+    flex-direction: column; /* alinha os elementos dentro do container em coluna */
+    width: 500px;
+    height: 900px;
+    background-color: rgba(139, 133, 133, 0.445);
 }
 
 .instagram-phone{
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 .instagram-phone img{
@@ -38,11 +49,18 @@ body {
 }
 
 .instagram-logo {
+
     height: 50px;
-    width: 50px;
+    width: 200px; 
 }
 
 .profile-photo{
-    height: 50px;
-    width: 50px;  
+    height: 80px;
+    width: 80px;
+    border-radius:50%;
+}
+
+.instagram-login{
+
+    
 }
