@@ -33,3 +33,7 @@ console.log(clientes[1].sexo);                                // imprime um item
 var username = prompt("Qual o seu nome?");                    // solicita um dado ao ususer //
 var msgUser = "voce é: " + username;                          // operacoes com variaveis //
 alert(msgUser);                                               // imprime para o usuario //
+
+var data = new Date();                                        // armazena a data e hora em uma variavel //
+alert(data);                                                  // imprime a tada completa //
+alert(data.getMonth());                                       // imprime uma parte especifica da data //
