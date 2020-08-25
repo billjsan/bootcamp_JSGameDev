@@ -29,3 +29,7 @@ alert(dados.nome);                                            // acessa e mostra
 var clientes =[{nome:"willian", sobrenome:"santos"}, {idade:27, sexo: "M"} ]; // cria uma lista de objetos //
 console.log(clientes);                                        // imprime todos os intens da lista //
 console.log(clientes[1].sexo);                                // imprime um item especifico //
+
+var username = prompt("Qual o seu nome?");                    // solicita um dado ao ususer //
+var msgUser = "voce é: " + username;                          // operacoes com variaveis //
+alert(msgUser);                                               // imprime para o usuario //
