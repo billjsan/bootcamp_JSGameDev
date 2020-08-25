@@ -30,6 +30,7 @@ var clientes =[{nome:"willian", sobrenome:"santos"}, {idade:27, sexo: "M"} ]; //
 console.log(clientes);                                        // imprime todos os intens da lista //
 console.log(clientes[1].sexo);                                // imprime um item especifico //
 
+
 var username = prompt("Qual o seu nome?");                    // solicita um dado ao ususer //
 var msgUser = "voce é: " + username;                          // operacoes com variaveis //
 alert(msgUser);                                               // imprime para o usuario //
@@ -37,3 +38,39 @@ alert(msgUser);                                               // imprime para o 
 var data = new Date();                                        // armazena a data e hora em uma variavel //
 alert(data);                                                  // imprime a tada completa //
 alert(data.getMonth());                                       // imprime uma parte especifica da data //
+
+function minhafuncao(frase, nome, novo_nome){                 // declacarao de funcao //
+        return frase.replace(nome, novo_nome);                // retorna o metodo replace trocando as variaveis //
+}
+
+alert (minhafuncao("o rato roeu","rato","gato"));             // passagem de parametros //
+
+function mensagem(){
+    document.getElementById("texto").innerHTML= "obrigado por clicar";  // injeta texto em html //
+    redir();
+}
+
+function redir(){                             
+    window.open("http://www.google.com.br");                 // redireciona para outro endereco //
+    //window.location.href = "http://www.google.com.br";     // abre o link na mesma janela //
+}
+
+function trocar(elemento){                                    // funcao de resposta a interacoes //
+    elemento.innerHTML="passou porquê?";
+
+}
+function msg1(elemento){
+    elemento.innerHTML="tá de brincadeira?";S
+
+}
+
+function msg2(elemento){
+    elemento.innerHTML="Já estou perdendo a paciência!";S
+
+}
+
+
+function voltar(elemento){
+    elemento.innerHTML="passe o mouse aqui!";
+}
+
