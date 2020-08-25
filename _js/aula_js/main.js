@@ -3,7 +3,7 @@
 // author: willian santos //
 
 var msg = "hello ";
-var nome = "willian"
+var nome = "willian";
 
 alert(msg + nome);                                            // cria um alerta concatenando duas variaveis //
 
@@ -12,4 +12,20 @@ console.log(nome.replace("willian", "joaquim"));              // alterna os valo
 console.log(msg.toUpperCase());                               // imprime o conteúdo de uma string em caixa alta //
 
 
+var lista = ["cajú" , "acerola" , "carambola"];
+console.log(lista);                                           // imprime toda a lista //
+console.log(lista[2]);                                        // mostra o terceiro elemento da lista //
+console.log(lista.toString());                                // separa os elementos da string por virgula ""
+console.log(lista.join("--"));                                // altera o separador dos elementos da string ""
 
+
+var dados = {nome:"willian", sexo:"M", idade:"27"};           // cria um dicionario ou um objeto // 
+console.log(dados);                                           // acessando todos os dados //
+console.log(dados.idade);                                     // acessando o metodo idade do objeto dados //
+alert(dados.nome);                                            // acessa e mostra o dado do metodo nome do objeto dados //
+
+
+
+var clientes =[{nome:"willian", sobrenome:"santos"}, {idade:27, sexo: "M"} ]; // cria uma lista de objetos //
+console.log(clientes);                                        // imprime todos os intens da lista //
+console.log(clientes[1].sexo);                                // imprime um item especifico //
