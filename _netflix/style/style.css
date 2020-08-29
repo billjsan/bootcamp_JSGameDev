@@ -51,11 +51,16 @@ header nav a:hover{
 
 /* sobre o filme principal*/
 
+.main{
+    display: flex;
+    justify-content: center;
+}
+
 .filme-principal{
     font-size: 16px;
     background: linear-gradient(rgba(10, 10, 10, 0.4), rgba(37, 37, 37, 0.4)), url('../img/rmbackground2.jpg');
-    height: 400px;
-    
+    height: 600px;
+    width: 90%;
     background-size: cover;
 
     display: flex;
@@ -107,4 +112,11 @@ header nav a:hover{
 .filme-principal .container{
     width: 80%;
     margin-left: 30px;
+}
+
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
 }
