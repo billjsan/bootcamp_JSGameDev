@@ -1,3 +1,6 @@
+/* bootcamp JavaScript Game Developer ago 2020 Digital Innovation One */
+/* comandos de responsividade da pagina */
+
 @media screen and (max-width:700px){
     header .container{
         display:flex;
@@ -9,6 +12,7 @@
     }
 
     nav{
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
         font-size:14px
     }
 }
